@@ -54,7 +54,7 @@ const checkViaAPI = async (text, options = {}) => {
   })
 
   const response = await fetch(cfg.api_url, {
-    credentials: "include",
+    //     credentials: "include",
     headers: {
       "Content-Type": "application/x-www-form-urlencoded",
     },
